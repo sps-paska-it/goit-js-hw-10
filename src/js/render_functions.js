@@ -15,7 +15,6 @@ export const renderFunctions = response => {
 };
 
 const onMarkupListCountries = response => {
-  console.log(response);
   return response
     .map(
       ({ name, flags }) => `<li class="country-list__item">
